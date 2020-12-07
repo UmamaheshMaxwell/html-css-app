@@ -3,4 +3,4 @@
 3. git add . ( adds all the files for push)
 4. git add filename ( adds specific file)
 5. git commit -am "added index.html and git-commands file"
-
+6. git push origin master
