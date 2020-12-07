@@ -14,3 +14,11 @@ creating a feature branch
 move between branches
 ----------------------
 8. git checkout master (your branchname)
+
+pull changes from remote repository
+------------------------------------
+9. git pull origin master ( your brnachname)
+
+delete the branch
+-----------------
+10. git branch -D feature/child-branch(your branchname)
