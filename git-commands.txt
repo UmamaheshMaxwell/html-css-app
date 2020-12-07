@@ -1,0 +1,6 @@
+1. git init ( initialize the reporsitory with git)
+2. git remote add origin git-url (This will integrate local reporsitory with remote reporsitory)
+3. git add . ( adds all the files for push)
+4. git add filename ( adds specific file)
+5. git commit -am "added index.html and git-commands file"
+
