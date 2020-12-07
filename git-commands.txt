@@ -10,3 +10,7 @@ Note: for every new changes repeat the steps from 3 to 6
 creating a feature branch
 -------------------------
 7. git checkout -b feature/child-branc(any name specific to your ticket)
+
+move between branches
+----------------------
+8. git checkout master (your branchname)
