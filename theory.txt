@@ -1,0 +1,75 @@
+HTML - Hypertext markup Language
+
+     - used to create webpages
+     - widely used in webp
+     - Just a markup language not a programming language
+
+Doctype - This tag specifies the language we write on the page
+
+HTML - This tag signals that from here we are going to write HTML code
+
+HEAD - Here we write meta data for the pages mostaly meant for search engines
+
+Title- Title of the webpage
+
+Header Tags - <h1>,<h2>,<h3>,<h4>,<h5>,<h6>
+
+HTML Element - Defined by a start tag and we write some content in between and end tag
+
+Some of the elements will have no content and no end tag
+
+<hr> - Horizontal line with no content and no end tag
+<br> - Line break which is an Empty element
+
+Only content inside the body section will be displayed
+
+Features os HTML
+----------------
+1. simple and easy to use
+2. Platform independent (Windows, Max, Linux)
+3. case insensitive language
+
+Note: Write all the tags in lower-case for consistency and for the better readability
+
+Building Blocks of HTML
+-----------------------
+Tags -  Surrounds the content and apply meaning to it, write using < and  > brackets
+
+attribute - Provides extra information about the element
+
+<tag attribute-name="attribute-value">
+
+Tags in HTML
+--------------
+1. Heading Tags - <h1>,<h2>,<h3>,<h4>,<h5>,<h6>
+                - <b></b> - bold
+                - <i></i> - italic
+                - <u></u> - underline
+
+2. Meta Tags - Doctype, title, link, meta, style
+
+style -        <style>
+                    .website {
+                        color: teal;
+                    }
+                </style>
+link -         <link href="./styles.css" rel="stylesheet">
+
+3. Text Tags - <p>,<h1>..<h6>, <strong><em>
+4. Link tags - <a>
+5. Image and Area - <img><area>
+6. List Tags - <ul>,<ol>,<li>
+7. Table tags - table, tr, td . th, thead, tbody
+8. Form tags  - <form>, <input>, <textarea>, <select>
+9. Scrit tags -  Script and no-Script
+
+HTML Text Tags
+----------------
+<b> - bold
+<i> - italic
+<u> - underline
+<strong>
+<em> - display content in italic
+<mark> - to highlight the text that is of relevance
+code - Defines a fragment of computer code
+<small> - Defines smaller text e.g. copyright or other side-comments
