@@ -73,3 +73,48 @@ HTML Text Tags
 <mark> - to highlight the text that is of relevance
 code - Defines a fragment of computer code
 <small> - Defines smaller text e.g. copyright or other side-comments
+<sup> - Super Script
+<sub> - subscript 
+<del> - is used to identify text that has been deleted from a document
+        but retained to show the history of modification to the document
+<ins> - is used when a text that has been inserted into a document
+<cite> - Defins title of some creative work 
+<q> - Quotation
+<abbr> - abbreviation
+<address> - To display Address
+&nbsp; - used to add space
+
+Link Tags
+----------
+<a> - achor tag , defines a hyperlink which is used to provide link from one page 
+      to other page
+
+      href - Most import attribute of element
+
+      target -  _blank - opens link in a new table_parent, _self, _top
+
+Image Tags
+----------
+<img> - Will help us to display images
+      src - which is source 
+      alt - Alternate text
+
+List Tags
+---------
+Ul - Unordered List -> No order is required
+Ol - Ordered List - Use it when you are lsiting steps which needs be in order
+
+HTML CSS
+---------
+CSS - Cascading Stylesheet to format the layout of our webpage
+    - with CSS you can control the color, font, size of text, element position,
+      background images and background-color
+
+CSS - can be added to HTML document in 3 ways
+
+Inline - by using style attribute inside HTMl element
+Internal - by using <style> element in <head> section
+External - by using <link> element to link external CSS
+
+Inline 
+------
