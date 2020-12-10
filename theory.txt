@@ -116,5 +116,25 @@ Inline - by using style attribute inside HTMl element
 Internal - by using <style> element in <head> section
 External - by using <link> element to link external CSS
 
-Inline 
-------
+Javascript execution engines
+----------------------------
+Chrome - v8
+IE - Chakra
+Firefox - SpiderMonkey
+
+HTML FORMS
+----------
+Required when you want to collect some data from the user. 
+
+<form> - used to create HTML form 
+
+1. Text Input controls - Single 
+                       - Password
+                       - Multiline
+2. Checkbox control
+3. Radio Box control
+4. Select Box control
+5. File Select control
+6. Hidden Control
+7. clickable button
+8. Submit and Reset button

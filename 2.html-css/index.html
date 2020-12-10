@@ -17,6 +17,12 @@
             .para {
                 border: 2px solid black;
             }
+            .para {
+                border: 2px solid red;
+            }
+            .para {
+                border: 2px solid blue;
+            }
             .divStudent {
                 border : 2px dotted black;
             }
@@ -24,7 +30,33 @@
             #div-section {
                 background-color: gray;
             }
+
+            .para-padding{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                border: 2px solid black;
+                padding: 30px;
+               
+            }
+            .para-margin {
+                border: 2px solid black;
+                margin: 150px;
+               
+            }
+
+            table, tr, th, td {
+                border : 1px solid black;
+                border-collapse: collapse
+            }
+
+            th, td {
+                padding: 15px;
+            }
+
+            th {
+                
+            }
         </style>
+        
     </head>
     <body>
         <h1 style="color: blue;">A blue heading</h1>
@@ -42,5 +74,46 @@
         <div id="div-section"> 
             This div has ID property
         </div>
+        <div>
+            <p class="para-margin">Lorem ipsum dolor sit amet consectetur.</p>
+            <p class="para-padding">Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <br>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th colspan="2">Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>hhlOuT6GuD5KhhlOuT6GuD5K</td>
+                    <td>Umamaheswararao Meka</td>
+                    <td>987654321</td>
+                </tr>
+                <tr>
+                    <td>hhhlOuT6GuD5KhlOuT6GuD5K</td>
+                    <td>Scott Desatnick</td>
+                    <td>123456789</td>
+                </tr>                
+            </tbody>
+        </table>
+        <br>
+        <table>
+            <tr>
+                <th>Name:</th>
+                <td>Elon Musk</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Telephone:</th>
+                <td>123456</td>
+            </tr>
+            <tr>
+                <td>345678</td>
+            </tr>
+        </table>
+        <br><br><br>
+        <br><br><br>
     </body>
 </html>
