@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* article {
+            background-color: gray;
+        }
+        article > h1, div {
+            color: blue;
+        } */
+        aside {
+            width: 30%;
+            padding-left:15px;
+            margin-left:15px;
+            float: right;
+            font-style: italic;
+            background-color: aqua;
+        }
+        details > summary {
+            padding: 4px;
+            width: 200px;
+            background-color: #eeeeee;
+            border:none;
+            box-shadow: 3px 3px 5px #bbbbbb;
+            cursor: pointer;
+        }
+        details > p {
+            background-color: #eeeeee;
+            padding: 4px;
+            width: 250px;
+            margin: 0;
+            box-shadow: 3px 3px 5px #bbbbbb;
+        }
+
+        figure {
+            border: thin #C0C0C0;
+            display:flex;
+            flex-flow: column;
+            padding: 220px;
+            margin:auto
+        }
+
+        img {
+            max-width: 220px;
+            max-height: 150px;
+        }
+
+        figcaption {
+            background-color: #222;
+            color: #fff;
+            font:italic smaller sans-serif;
+            padding:3px;
+            text-align: center;
+            width:121px;
+        }
+
+        article {
+            min-height: 100%;
+            display: grid;
+            grid-template-rows: auto;
+        }
+
+        footer {
+            display: flex;
+            justify-content: center;
+            padding: 5px;
+            background-color: #45a1ff;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <h1>This is a blog post</h1>
+        <div>
+            This is a website which talks about HTMML5
+        </div>
+    </article>
+    <br>
+    <aside>
+        <p>This is aside tag</p>
+    </aside>
+    <br>
+    <details>
+        <summary>This is summary</summary>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </details>
+    <details>
+        This is detail tag
+    </details>
+    <br><br>
+    <figure>
+        <img src="../images/First.webp" alt="">
+        <figcaption>A Training center</figcaption>
+    </figure>
+    <br><br>
+        <footer>
+            <!-- <article>
+                <h1>How to be Mean Stack Developer ?</h1>
+            </article>
+            <ol>
+                <li>Start with HTML and CSS</li>
+                <li>Then learn Javascript</li>
+                <li>and then learn Angular and NodeJS</li>
+            </ol> -->
+            <footer>
+                <p>© 2020 Naresh i Technologies</p>
+            </footer>
+        </footer>
+        <header>
+            <h1>A Training Center</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </header>
+        <main>
+            <p>Some Content</p>
+        </main>
+</body>
+</html>

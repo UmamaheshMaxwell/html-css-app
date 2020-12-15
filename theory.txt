@@ -188,3 +188,73 @@ Usage : with HTMl DOM javascript can access all the elements of an HTML document
        Javascript can add, remove, change all the HTML elements, HTMl attributes, css, styles in the page
 
        Javascript can react to HTML events and can create new HTML events in the page
+
+Video and Audio Tags
+-----------------------
+<Video controls autoplay muted>
+<Audio controls autoplay muted>
+
+controls - The browser will ofer controls to allow the user to control 
+           audio playback, volume , pause/resume
+
+autoplay - This audio will automatically begin playback as soon as it can 
+           without waiting for the entire audio file to finish downloading
+
+muted - will mute the audio
+
+HTML Class
+----------
+HTML class attribute is used ti specify a class for an element
+
+multiple HTML elements can share the same class
+
+
+Padding & margin
+-----------------
+
+Padding - is the space between the text and border
+
+margin - is the space between the elements
+
+HTML Responsive Webdesign
+---------------------------
+Responsive webdesign is about creating webpages that look good in all devices
+
+Will automatically adjust for different screen sizes and viewports
+
+to crete responsive website we need <meta> tag
+
+<meta name="viewport" content="width=device-with, Initial-scale=1.0">
+
+meta - This will set the viewport of our page which will give instructions to browser 
+       on how to control page's deminesion and scaling
+
+viewport - This is user's vivisible are of the webpage.
+           This varies with device.
+           This will be smaller on mobile phone and larger on computer screen 
+
+Initial-scale - Governs the zoom level when page is loaded for the first time.
+
+
+Semantic Elements
+-----------------
+Elements with meaning 
+
+Semantic 
+---------
+<article> - specifies independent, self-contained content
+<aside> - defines some conteent aside from the content it is placed in
+<details> - specifies additional details that the user can 
+            open and close on demand
+<figure>
+<header>
+<footer>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<time>
+<h1>
+
+
